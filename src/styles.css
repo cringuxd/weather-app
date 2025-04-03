@@ -1,11 +1,42 @@
-.home {
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.search {
 
 }
 
-.contacts {
+.submitbutton {
 
 }
 
-.menu {
-    
+.appinfo {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+.appheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.appcontent {
+    display:grid;
+    grid-template-columns: repeat(15, 1fr);
 }

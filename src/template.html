@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <button class="home">Home</button>
-            <button class="menu">Menu</button>
-            <button class="contacts">Contacts</button>
-        </nav>
-    </header>
-    <div id="content"></div>
+    <div class="container">
+        <div class="header">
+            <form action="POST" class="form">
+                <div class="search">
+                    <label for="city">Enter City: </label>
+                    <input type="text" name="city">
+                </div>
+            </form>
+            <button type="submit" class="submitbutton">Submit</button>
+        </div>
+        <div class="appinfo">
+            <div class="appheader">
+
+            </div>
+            <div class="appcontent">
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
